@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="39">
+	<author>{package_author}</author>
+	<version>{package_version}</version>
+	<annotation></annotation>
+	<title>
+	    <en>FirewoodWork</en>
+  	</title>
+
+	<description>
+    	<en><![CDATA[An help to work in the forest or tree plantation with chainsaw and a preparation of firewood.
+- Have an information tooltip, about size, type of wood, number of branches, before cut.
+- A meter with automatic reset after a complete cut.
+
+]]>
+		</en>
+		<de><![CDATA[An help to work in the forest or tree plantation with chainsaw and a preparation of firewood.
+- Have an information tooltip, about size, type of wood, number of branches, before cut.
+- A meter with automatic reset after a complete cut.
+
+]]>
+		</de>
+		<es><![CDATA[An help to work in the forest or tree plantation with chainsaw and a preparation of firewood.
+- Have an information tooltip, about size, type of wood, number of branches, before cut.
+- A meter with automatic reset after a complete cut.
+
+]]>
+		</es>
+		<fr><![CDATA[An help to work in the forest or tree plantation with chainsaw and a preparation of firewood.
+- Have an information tooltip, about size, type of wood, number of branches, before cut.
+- A meter with automatic reset after a complete cut.
+
+]]>
+		</fr>
+
+    	<it><![CDATA[Un aiuto per il lavoro forestale con la motosega e per la preparazione della legna da ardere
+
+]]>	
+		</it>
+
+	</description>
+
+	<iconFilename>store.dds</iconFilename>
+  
+  	<multiplayer supported="true" />
+	<extraSourceFiles>
+		<sourceFile filename="utils/delayedCallBack.lua" />
+		<sourceFile filename="utils/fadeEffect.lua" />
+		<sourceFile filename="utils/i18nUtils.lua" />
+		<sourceFile filename="utils/register.lua" />
+    	<sourceFile filename="firewood.lua" />
+	</extraSourceFiles>
+
+	<l10n>
+		<text name="input_FW_QSLICE">
+			<en>fw: piece to pallet</en>
+			<de>fw: Stück auf Palette</de>
+			<es>fw: pieza a palet</es>
+			<fr>fw: pièce sur la palette</fr>
+			<it>fw: pezzo sul pallet</it>
+		</text>
+		<text name="input_FW_SELLFW">
+			<en>fw: sell firewood</en>
+			<de>fw: verkaufen Brennholz</de>
+			<es>fw: venta de leña</es>
+			<fr>fw: vente de bois de chauffage</fr>
+			<it>fw: vendi la legna</it>
+		</text>
+		<text name="FW_LEGNA">
+			<en>Firewood</en>
+			<de>Brennholz</de>
+			<es>leña</es>
+			<fr>Bois de chauffage</fr>
+			<it>Legna</it>
+		</text>
+		<text name="FW_PREZZO">
+			<en>Price</en>
+			<de>Verkaufspreis</de>
+			<es>Precio</es>
+			<fr>Prix</fr>
+			<it>Prezzo</it>
+		</text>
+		<text name="FW_PAGAM">
+			<en>Payment</en>
+			<de>Vergütung</de>
+			<es>El pago</es>
+			<fr>Paiement</fr>
+			<it>Pagamento</it>
+		</text>
+		<text name="FW_CIPP">
+			<en>Woodchips added to silo</en>
+			<de>Hackschnitzel zum Silo hinzugefügt</de>
+			<es>Astillas añadido a silos</es>
+			<fr>Copeaux de bois ajouté à silo</fr>
+			<it>Cippato aggiunto al silo</it>
+		</text>
+		<text name="FW_ZEROMT">
+			<en>measure reset</en>
+			<de>measure reset</de>
+			<es>measure reset</es>
+			<fr>measure reset</fr>
+			<it>azzerato misurazione</it>
+		</text>
+		<text name="FW_REQTITLE">
+			<en>Great Demand</en>
+			<de>Great Demand</de>
+			<es>Great Demand</es>
+			<fr>Great Demand</fr>
+			<it>Grande Richiesta</it>
+		</text>
+		<text name="FW_REQMESSAGE">
+			<en>for this session the firewood have high value ! </en>
+			<de>for this session the firewood have high value ! </de>
+			<es>for this session the firewood have high value ! </es>
+			<fr>for this session the firewood have high value ! </fr>
+			<it>per questa sessione la legna vale di più ! </it>
+		</text>
+		<text name="FW_CSHE">
+			<en>Chainsaw hovereated! wait... or you can break it</en>
+			<de>Chainsaw hovereated! wait... or you can break it</de>
+			<es>Chainsaw hovereated! wait... or you can break it</es>
+			<fr>Chainsaw hovereated! wait... or you can break it</fr>
+			<it>Motosega surriscaldata! aspetta... o potresti romperla</it>
+		</text>
+	</l10n>
+
+	<inputBindings>
+		<input name="FW_QSLICE" category="ONFOOT" key1="KEY_q" button="" device="0" mouse="" />
+		<input name="FW_SELLFW" category="ONFOOT" key1="KEY_r" button="" device="0" mouse="" />
+	</inputBindings>
+
+</modDesc>
