@@ -1,5 +1,5 @@
 --
--- firewood utilities, register special bale for wood.
+-- firewood utilities, register special bale for wood, register fillType firewood
 --
 -- fcelsa (Team FSI Modding)
 --
@@ -7,9 +7,17 @@
 register = {};
 register.dir = g_currentModDirectory;
 
-BaleUtil.registerBaleType(register.dir .. "bales/firewoodpack.i3d", "straw", 1.22, nil, nil, 1.01, true);
 
-print("firewood: register special bale for wood pack")
+--local hudOverlayFilename = g_currentModDirectory .. "";
+--local hudOverlayFilenameSmall = g_currentModDirectory .. "";
+local hudOverlayFilename = "dataS2/menu/hud/fillTypes/hud_fill_woodChips.png";
+local hudOverlayFilenameSmall = "dataS2/menu/hud/fillTypes/hud_fill_woodChips_sml.png";
+
+FillUtil.registerFillType("firewood", g_i18n:getText("fillType_firewood"), FillUtil.FILLTYPE_CATEGORY_PIECE, 4.0, false, hudOverlayFilename, hudOverlayFilenameSmall, 2000 * 0.000001, math.rad(0));
+
+BaleUtil.registerBaleType(register.dir .. "bales/firewoodpack.i3d", "firewood", 1.22, nil, nil, 1.01, true);
+
+print("firewood: register fillType firewood, register special bale for wood pack")
 
 function register:loadMap(name)
 end

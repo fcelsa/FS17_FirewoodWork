@@ -12,13 +12,13 @@
 
 
   <Materials>
-    <Material name="Holzsterteile:lambert3" materialId="6" ambientColor="1 1 1">
-      <Texture fileId="3"/>
-    </Material>
     <Material name="lambert1" materialId="7" diffuseColor="0.494118 0.494118 0.494118 1" ambientColor="1 1 1">
     </Material>
     <Material name="Halb:FrontColor1" materialId="8" ambientColor="1 1 1">
       <Texture fileId="2"/>
+    </Material>
+    <Material name="Holzsterteile:lambert3" materialId="6" ambientColor="1 1 1">
+      <Texture fileId="3"/>
     </Material>
   </Materials>
 
@@ -44,7 +44,7 @@
       <Attribute name="baleWidth" type="float" value="1.22"/>
       <Attribute name="dynamicMountForceLimitScale" type="float" value="2"/>
       <Attribute name="dynamicMountTriggerIndex" type="string" value="0"/>
-      <Attribute name="fillType" type="string" value="straw"/>
+      <Attribute name="fillType" type="string" value="firewood"/>
       <Attribute name="isRoundbale" type="boolean" value="true"/>
       <Attribute name="supportsWrapping" type="boolean" value="false"/>
     </UserAttribute>

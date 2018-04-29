@@ -49,6 +49,7 @@
 		<sourceFile filename="utils/i18nUtils.lua" />
 		<sourceFile filename="utils/register.lua" />
     	<sourceFile filename="firewood.lua" />
+		<sourceFile filename="events/firewoodevent.lua" />
 	</extraSourceFiles>
 
 	<l10n>
