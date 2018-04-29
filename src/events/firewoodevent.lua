@@ -32,6 +32,6 @@ end
 
 function firewoodShapeEvent:run(connection)
     if self.shape ~= nil and self.shape ~= 0 then
-        g_currentMission.firewoodBase:deleteSlice(self.shape)
+        Firewood.deleteSlice(self.shape)
     end
 end

@@ -13,12 +13,12 @@
 
 
   <Materials>
-    <Material name="woolPallet_mat" materialId="7" ambientColor="1 1 1" cosPower="20" specularColor="1 1 1">
+    <Material name="woolPallet_mat" materialId="6" ambientColor="1 1 1" cosPower="20" specularColor="1 1 1">
       <Texture fileId="2"/>
       <Normalmap fileId="3"/>
       <Glossmap fileId="4"/>
     </Material>
-    <Material name="wire_mat" materialId="6" ambientColor="1 1 1" cosPower="255" specularColor="1 1 1" alphaBlending="true">
+    <Material name="wire_mat" materialId="7" ambientColor="1 1 1" cosPower="255" specularColor="1 1 1" alphaBlending="true">
     </Material>
     <Material name="lambert1" materialId="8" diffuseColor="0.494118 0.494118 0.494118 1" ambientColor="1 1 1">
     </Material>
@@ -34,21 +34,21 @@
 
   <Scene>
     <Shape shapeId="1" name="fillablePallet" dynamic="true" compound="true" collisionMask="25178120" density="0.1" clipDistance="300" nodeId="34" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true">
-      <Shape shapeId="2" name="vis" clipDistance="300" nodeId="35" materialIds="7" castsShadows="true" receiveShadows="true">
-        <Shape shapeId="3" name="wire" translation="-0.00322998 0.866917 -0.491214" clipDistance="75" nodeId="36" materialIds="6" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="4" name="wire1" translation="0.734754 0.866917 2.38419e-08" clipDistance="75" nodeId="37" materialIds="6" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="5" name="wire2" translation="-0.00322998 0.866917 0.491214" clipDistance="75" nodeId="38" materialIds="6" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="6" name="wire3" translation="-0.741214 0.866917 2.38419e-08" clipDistance="75" nodeId="39" materialIds="6" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="7" name="wire4" translation="-0.00322998 1.45898 2.38419e-08" clipDistance="75" nodeId="40" materialIds="6" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="8" name="wireInside" translation="-0.00322998 0.866917 2.38419e-08" clipDistance="75" nodeId="41" materialIds="6" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="2" name="vis" clipDistance="300" nodeId="35" materialIds="6" castsShadows="true" receiveShadows="true">
+        <Shape shapeId="3" name="wire" translation="-0.00322998 0.866917 -0.491214" clipDistance="75" nodeId="36" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="4" name="wire1" translation="0.734754 0.866917 2.38419e-08" clipDistance="75" nodeId="37" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="5" name="wire2" translation="-0.00322998 0.866917 0.491214" clipDistance="75" nodeId="38" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="6" name="wire3" translation="-0.741214 0.866917 2.38419e-08" clipDistance="75" nodeId="39" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="7" name="wire4" translation="-0.00322998 1.45898 2.38419e-08" clipDistance="75" nodeId="40" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="8" name="wireInside" translation="-0.00322998 0.866917 2.38419e-08" clipDistance="75" nodeId="41" materialIds="7" castsShadows="true" receiveShadows="true"/>
         <Shape shapeId="9" name="dummyTensionBeltNode" translation="0 0.722266 0" visibility="false" clipDistance="100" nodeId="42" materialIds="8" castsShadows="true" receiveShadows="true"/>
       </Shape>
       <Shape shapeId="10" name="palletAttacherTrigger" translation="0 0.175 0" kinematic="true" trigger="true" collisionMask="8192" nodeId="43" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
       <TransformGroup name="fillBags" nodeId="44">
-        <Shape shapeId="11" name="bag1" translation="-0.380298 0.550452 0.0059431" clipDistance="300" nodeId="45" materialIds="7" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="12" name="bag2" translation="0.365514 0.550452 -0.00641344" clipDistance="300" nodeId="46" materialIds="7" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="13" name="bag3" translation="-0.374016 1.14593 0.00715955" clipDistance="300" nodeId="47" materialIds="7" castsShadows="true" receiveShadows="true"/>
-        <Shape shapeId="14" name="bag4" translation="0.358347 1.14474 -0.0020658" clipDistance="300" nodeId="48" materialIds="7" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="11" name="bag1" translation="-0.380298 0.550452 0.0059431" clipDistance="300" nodeId="45" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="12" name="bag2" translation="0.365514 0.550452 -0.00641344" clipDistance="300" nodeId="46" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="13" name="bag3" translation="-0.374016 1.14593 0.00715955" clipDistance="300" nodeId="47" materialIds="6" castsShadows="true" receiveShadows="true"/>
+        <Shape shapeId="14" name="bag4" translation="0.358347 1.14474 -0.0020658" clipDistance="300" nodeId="48" materialIds="6" castsShadows="true" receiveShadows="true"/>
       </TransformGroup>
       <Shape shapeId="15" name="transportPallet_col8" translation="0.00271691 0.181872 0.000948154" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="49" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
       <Shape shapeId="16" name="transportPallet_col7" translation="0.622586 0.181872 0.000948154" visibility="false" compoundChild="true" collisionMask="25178120" density="0.02" clipDistance="300" nodeId="50" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
@@ -65,16 +65,12 @@
 
   <UserAttributes>
     <UserAttribute nodeId="34">
-      <Attribute name="deleteIfEmpty" type="boolean" value="true"/>
+      <Attribute name="capacity" type="integer" value="2000"/>
       <Attribute name="dynamicMountForceLimitScale" type="float" value="1"/>
       <Attribute name="dynamicMountTriggerIndex" type="string" value="0>1"/>
       <Attribute name="fillType" type="string" value="firewood"/>
       <Attribute name="meshNodes" type="string" value="0 0|6"/>
-      <Attribute name="startFillLevel" type="integer" value="0"/>
-      <Attribute name="startScale" type="float" value="0.1"/>
-      <Attribute name="useRandomRot" type="boolean" value="false"/>
-      <Attribute name="visibilityNodesAdditive" type="boolean" value="true"/>
-      <Attribute name="visibilityNodesIndex" type="string" value="0>2"/>
+      <Attribute name="startFillLevel" type="integer" value="2000"/>
     </UserAttribute>
   </UserAttributes>
 

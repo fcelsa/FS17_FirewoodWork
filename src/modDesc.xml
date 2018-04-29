@@ -48,6 +48,8 @@
 		<sourceFile filename="utils/fadeEffect.lua" />
 		<sourceFile filename="utils/i18nUtils.lua" />
 		<sourceFile filename="utils/register.lua" />
+		<sourceFile filename="objects/woodpack.lua" />
+		<sourceFile filename="objects/fillableWoodPallet.lua" />
     	<sourceFile filename="firewood.lua" />
 		<sourceFile filename="events/firewoodevent.lua" />
 	</extraSourceFiles>
@@ -122,6 +124,13 @@
 			<es>Chainsaw hovereated! wait... or you can break it</es>
 			<fr>Chainsaw hovereated! wait... or you can break it</fr>
 			<it>Motosega surriscaldata! aspetta... o potresti romperla</it>
+		</text>
+		<text name="FW_CSHE">
+			<en>Sold wood pack</en>
+			<de>Sold wood pack</de>
+			<es>Sold wood pack</es>
+			<fr>Sold wood pack</fr>
+			<it>Sold wood pack</it>
 		</text>
 	</l10n>
 
